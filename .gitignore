@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# production
+/src/dist
+/public/index.dist.html
