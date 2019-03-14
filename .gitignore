@@ -2,5 +2,6 @@
 /node_modules
 
 # production
-/src/dist
+/src/client/dist
 /public/index.dist.html
+/src/server/server.dist.js

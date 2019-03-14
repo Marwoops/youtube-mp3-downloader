@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Mod from './components/test.js'
+import Downloader from './components/downloader.js'
 
 const App = () => {
     return <div>
-        <Mod />
+        <h1>YouTube Downloader</h1>
+        <Downloader />
     </div>
 };
 

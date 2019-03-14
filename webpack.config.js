@@ -3,11 +3,11 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 
 module.exports = {
-    entry: { app: './src/entry.js' },
+    entry: ['babel-regenerator-runtime', './src/client/entry.js' ],
 
     output: {
         path: __dirname,
-        filename: './src/dist/entry.dist.js'
+        filename: './src/client/dist/entry.dist.js'
     },
 
     module: {
