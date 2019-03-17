@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-app": "webpack --mode production",
-    "build-server": "babel src/server/server.js -o src/server/server.dist.js",
-    "start-app": "webpack-dev-server --mode development --open",
-    "start-server": "node src/server/server.dist.js"
+    "build": "babel src/server/server.js -o src/server/server.dist.js & webpack --mode production",
+    "start": "webpack-dev-server --mode development --open & node src/server/server.dist.js"
   },
   "author": "Marwoops",
   "license": "ISC",

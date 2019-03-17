@@ -40,6 +40,7 @@ class Downloader extends React.Component {
                     <Button handleClick={() => this.setState({ info: {} })} text="Cancel"/>
                 </div>
             );
+            
         } else if (this.state.info.type == 'error') {               // if request failed
             return (
                 <div>
@@ -47,12 +48,14 @@ class Downloader extends React.Component {
                     <Button handleClick={() => this.setState({ info: {} })} text="Ok"/>
                 </div>
             );
+
         } else {                                                    // if no url was input
             return (
                 <div>
                     <Bar handleSubmit={this.handleDownload} handleChange={this.handleChange}/>
                 </div>
             );
+
         };
         
     };

@@ -18,6 +18,7 @@ class Bar extends React.Component {
                 <UrlBar type="text" value={this.state.currentUrl} onChange={this.props.handleChange} placeholder="URL"/>
             </form>
         );
+        
     };
 };
 
